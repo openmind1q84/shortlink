@@ -97,6 +97,10 @@
   .fallback ol{margin:0 0 12px;padding-left:20px;font-size:14px;line-height:1.6}
   .fallback ol li{margin:6px 0}
   .fallback .big{font-size:15px}
+  .credit{margin-top:40px;display:flex;justify-content:flex-end;align-items:center;gap:8px;font-family:var(--mono);font-size:12px;letter-spacing:.06em;color:var(--muted)}
+  .credit::before{content:"";width:28px;height:1px;background:var(--line)}
+  .credit b{font-weight:500;color:var(--ink)}
+  .credit i{font-style:normal;color:var(--accent)}
 </style>
 </head>
 <body>
@@ -211,6 +215,7 @@
       </div>
     </div>
   </section>
+  <footer class="credit">made by <b>JYP<i>.</i></b></footer>
 </div>
 <div class="toast" id="toast"></div>
 
